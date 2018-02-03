@@ -3,7 +3,7 @@ from datetime import datetime as d
 
 hostlocation="/etc/hosts"
 redirect="127.0.0.1"
-websites=["varzesh3.com","www.varzesh3.com"]
+websites=["facebook.com","www.facebook.com"]
 
 while True :
     if d(d.now().year, d.now().month, d.now().day, 2 ) < d.now() < d(d.now().year, d.now().month, d.now().day, 3 ):
